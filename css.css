@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif !important;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 100px;
+    flex-shrink: 0;
+    padding: 33px 119px;
+
+}
+
+/* ---modal tayorlash basket uchun------------ */
+
+.basket {
+    width: 350px;
+    height: 500px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    transform: translateX(350px);
+    transition: 1s;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+#back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: tan;
+    border: none;
+    font-size: larger;
+}
+
+.navl>p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.navl>p>span {
+    color: #FF8F52;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.navc>a {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.navc>a:hover {
+    color: #FF8F52;
+
+}
+
+.navc {
+    display: flex;
+    gap: 23px;
+}
+
+.navr {
+    display: flex;
+    gap: 40px;
+
+}
+
+
+.navr>button {
+    border: none;
+    background-color: #fff;
+
+}
+
+
+.section1 {
+    width: 100%;
+    padding: 75px 120px;
+    background: #F2F2F2;
+    display: flex;
+}
+
+
+.sec1l {
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+
+.sec1l>p {
+    width: 557px;
+    height: 212px;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.sec1l>span {
+    color: #838383;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 40px 0;
+}
+
+.sec1l>button {
+    width: 103px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FF8F52;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.sec1r {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: end;
+}
+
+.section2{
+width: 100%;
+
+
+}
+
+.section2>p{
+text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
